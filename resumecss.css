@@ -1,0 +1,376 @@
+body {
+  margin: 0px;
+}
+
+/* Body Header */
+
+#body-header {
+  height: 65vh;
+  opacity: 0.8;
+  background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Horizontal Lists */
+
+.horizontal-list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.horizontal-list li {
+  display: inline-block;
+  margin: 0px 8px 8px 0px;
+}
+
+.horizontal-list li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.5s, border-bottom 4s;
+}
+
+.horizontal-list li a:hover {
+  color: lightgrey;
+  border-bottom: 1px solid white;
+}
+#name{
+   font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    margin-top: 20vh;
+    text-align:center;
+}
+
+.text-center {
+  text-align: center;
+}
+.social-links{
+    display:inline-block;
+    list-style:none;
+    padding:0px;
+    margin: 0px ;
+    margin-left:45%;
+    
+    
+}
+
+.social-links li {
+    display:inline-block;
+    text-align:center;
+    margin: 0 ;
+    
+
+}
+.social-links li a img{
+    height:20px;
+    border-radius: 50%;
+    width: 1rem;
+    padding: 8px;
+}
+.social-links li a img:hover{
+    height:20px;
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+
+/*about*/
+#image img{
+  position:relative;
+  height:290px;
+  width:320px;
+  margin-top:-145px;
+  z-index:1;
+  border-radius:50%;
+  box-shadow: 0px 0px 6px 4px lightgrey;
+}
+#about{
+  height:auto;
+  width:100%;
+ 
+}
+#general{
+  font-size:1.2rem;
+  color:grey;
+  text-align:justify;
+  margin-left:70px;
+  margin-right:70px;
+}
+.highlight{
+  color:#2857a4;
+}
+.section-heading{
+  width:auto;
+  padding:20px 10px 10px;
+  margin:10px auto;
+  font-weight:400;
+  text-align:center;
+}
+.section-heading span{
+ font-size:25px;
+ color:#2857a4;
+ display:inline-block;
+ padding-top:10px;
+ 
+}
+section:nth-of-type(2n){
+  background-color:#f1efef;
+}
+section:nth-of-type(2n+1){
+  background-color:white;
+}
+section{
+  display:flex;
+  align-items:flex-center;
+  flex-direction:column;
+}
+
+#skills-display{
+  width:700px;
+  height:400px;
+  
+  margin-top:40px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+.skills-holder{
+  background-color:grey;
+  height:40px;
+  width:190px;
+  border-radius:20px;
+}
+.child-holder {
+  background-color:#013a96;
+  padding: 10px;
+  border-radius:20px;
+  height:50%;
+  width:50%;
+}
+.skill{
+  margin:0;
+  font-size:19px;
+  color:white;
+}
+.cpp{
+  background-color:red;
+  width:80%;
+}
+.python{
+  background-color:#4caf50;
+  width:40%;
+}
+.html{
+  background-color:#795548;
+  width:30%;
+}
+.css{
+  background-color:#009688;
+  width:90%;
+
+}
+.java{
+  background-color:#b7993a;
+  width:10%;
+
+}
+.JavaScript{
+  background-color:#3a91b7;
+  width:20%;
+
+}
+.NodeJs{
+  background-color:#e91e63;
+  width:80%;
+
+}
+.MangoDB{
+  background-color:#e68855;
+  width:50%;
+
+}
+.DBMS{
+  background-color:#9c27b0;
+  width:40%;
+
+}
+.AWS{
+  background-color:#673ab7;
+  width:70%;
+
+}
+.React{
+  background-color:#ffc107;
+  width:80%;
+
+}
+.java{
+  background-color:#00bcd4;
+  width:80%;
+
+}
+#portfolio-display{
+  width:100vw;
+  max-width:1300px;
+  height:AUTO;
+
+  margin-top:40px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+.project-pic{
+  position:relative;
+  
+}
+.project-pic img{
+  height:350px;
+  width:350px;
+}
+.overlay{
+  
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  position:absolute;
+  height:350px;
+  width:350px;
+  
+}
+
+
+.project-pic:hover .overlay {
+  opacity: 0.4; 
+  box-shadow: 0 0 20px #74ADC8;
+  background-color: grey;
+  color: white;
+}
+#contact{
+  background:linear-gradient(#2857a4,#2857a4);
+  height:500px;
+  width:auto;
+
+}
+.contact-heading span{
+  color:white;
+}
+#details{
+  color:grey;
+  
+}
+#info{
+  color:white;
+  width:500px;
+
+}
+#contact-section{
+  display:flex;
+  justify-content: space-around;
+  margin:30px;
+
+}
+#experience{
+  height:920px;
+  
+  position:relative;
+  max-width:1000px;
+  margin:auto;
+}
+
+}
+#exp-box{
+  margin:auto;
+  position:relative;
+  
+  height:90%;
+  width:75%;
+  
+}
+#boxx{
+
+  position:relative;
+  height:auto;  
+  width:40%;
+
+  margin:5px;
+  
+}
+
+
+#boxx:nth-child(2n){
+  left:58.5%;
+}
+#box-div{
+  position:absolute;
+  height:83%;
+  width:0;
+  border:3px dashed #0096fa6b;
+  top:15%;
+  right:50%;
+}
+
+#aero {
+  position: sticky; 
+  top: 35%;
+  transform:rotate(90deg);
+}
+.boxx:nth-child(2n+1)::after {
+  content: '';
+  border-radius: 50%;
+  width: 0.8rem; /* Adjust the size of the dot */
+  height: 0.8rem; /* Adjust the size of the dot */
+  background-color: lightgrey; /* Adjust the color of the dot */
+  position: absolute;
+  top: 50%; /* Position the dot vertically */
+  left: 100%; /* Position the dot at the end of the .boxx div */
+  transform: translate(-50%, -50%); /* Center the dot */
+  margin-left:23%;
+}
+
+.boxx:nth-child(2n)::before {
+  content: '';
+  border-radius: 50%;
+  width: 0.8rem; /* Adjust the size of the dot */
+  height: 0.8rem; /* Adjust the size of the dot */
+  background-color: lightgrey; /* Adjust the color of the dot */
+  position: absolute;
+  top: 50%; /* Position the dot vertically */
+  right: 120%; /* Position the dot at the end of the .boxx div */
+  transform: translate(-50%, -50%); /* Center the dot */
+  margin-left: 29%; /* Adjust the distance between the dot and the .boxx div */
+}
+.designation{
+  color:#2857a4;
+  line-height: 2px;
+}
+.company{
+  color:orange;
+  line-height:1.5px;
+}
+.para{
+  
+  font-size:1rem;
+  color:grey;
+ 
+}
+.heading-div::before {
+  content: "";
+  display: inline-block;
+  width: 30px; /* Adjust the width of the image */
+  height: 25px; /* Adjust the height of the image */
+  background-image: url("C:/Users/megha/OneDrive/Desktop/htmlcodingninja/static/codingninjalogo.png");
+  background-size:cover;
+  margin-right: 10px; /* Adjust the space between the image and the content */
+}
+#education{
+  height:920px;
+  
+  position:relative;
+  
+  margin:auto;
+}
+#aero i {
+  font-size: 28px; /* Adjust the font size as needed */
+}
